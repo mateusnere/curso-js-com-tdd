@@ -4,7 +4,8 @@
   "description": "biblioteca do curso js com tdd",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/mateusnere/curso-js-com-tdd/issues"
   },
-  "homepage": "https://github.com/mateusnere/curso-js-com-tdd#readme"
+  "homepage": "https://github.com/mateusnere/curso-js-com-tdd#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {}
 }
