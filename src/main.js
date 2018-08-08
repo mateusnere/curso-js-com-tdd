@@ -12,4 +12,3 @@ function teste() {
   return a + b;
 }
 
-teste();
